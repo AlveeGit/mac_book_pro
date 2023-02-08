@@ -36,27 +36,30 @@
                     Magic Keyboard-US English
                 </p>
                 <!-- Customization -->
-                <div class="pt-4">
+                <div class="pt-4 ">
                     <h6>Memory</h6>
-                    <button type="button" id="8gb-memory" class="btn btn-light btn-sm border-dark  mb-2 p-2 ">8GB
+                    <button type="button" id="8gb-memory"
+                        class="btn btn-light btn-sm border-dark  mb-2 p-2 memory">8GB
                         unified memory</button>
-                    <button type="button" id="16gb-memory" class="btn btn-light btn-sm border-dark  mb-2 p-2 ">16GB
+                    <button type="button" id="16gb-memory" class="btn btn-light btn-sm border-dark  mb-2 p-2 memory">16GB
                         unified memory</button>
                 </div>
-                <div class="pt-4">
+                <div class="pt-4 ">
                     <h6>Storage</h6>
-                    <button type="button" id="256gb-storage" class="btn btn-light btn-sm border-dark  mb-2 p-2 ">256GB
+                    <button type="button" id="256gb-storage"
+                        class="btn btn-light btn-sm border-dark  mb-2 p-2 storage">256GB
                         SSD Storage</button>
-                    <button type="button" id="512gb-storage" class="btn btn-light btn-sm border-dark  mb-2 p-2 ">512GB
+                    <button type="button" id="512gb-storage" class="btn btn-light btn-sm border-dark  mb-2 p-2 storage">512GB
                         SSD Storage</button>
-                    <button type="button" id="1tb-storage" class="btn btn-light btn-sm border-dark  mb-2 p-2 ">1TB SSD
+                    <button type="button" id="1tb-storage" class="btn btn-light btn-sm border-dark  mb-2 p-2 storage">1TB SSD
                         Storage</button>
                 </div>
-                <div class="pt-4">
+                <div class="pt-4 ">
                     <h6>Choose your delivery option</h6>
-                    <button type="button" id="8gb-memory" class="btn btn-light btn-sm border-dark  mb-2 p-2 ">Tuesday,
+                    <button type="button" id="free-delivery"
+                        class="btn btn-light btn-sm border-dark  mb-2 p-2 delivery">Tuesday,
                         March 14 Free Prime Delivery</button>
-                    <button type="button" id="8gb-memory" class="btn btn-light btn-sm border-dark  mb-2 p-2 ">Friday,
+                    <button type="button" id="fast-delivery" class="btn btn-light btn-sm border-dark  mb-2 p-2 delivery">Friday,
                         March 11 Delivery Charge $20</button>
                 </div>
 
@@ -64,7 +67,7 @@
                 <section class="row">
                     <div class="fw-bold col-6">
                         <div class="d-flex justify-content-between border-bottom">
-                            Best Price <Span>$<span id="best_price">1299</span></Span>
+                            Best Price <Span>$<span id="best-price">1299</span></Span>
                         </div>
                         <div class="d-flex justify-content-between border-bottom">
                             Extra Memory Cost <Span>$<span id="memory-cost">0</span></Span>
@@ -73,19 +76,19 @@
                             Extra Storage Cost <Span>$<span id="storage-cost">0</span></Span>
                         </div>
                         <div class="d-flex justify-content-between border-bottom">
-                            Delivery Charge <Span>$<span id="Delivery-charge">0</span></Span>
+                            Delivery Charge <Span>$<span id="delivery-cost">0</span></Span>
                         </div>
                         <div class="d-flex justify-content-between border-top">
-                            Total Price <Span>$<span id="Total-price">1299</span></Span>
+                            Total Price <Span>$<span id="total-price">1299</span></Span>
                         </div>
 
                     </div>
                 </section>
 
                 <!-- Promo  -->
-                <p class="mt-4 ">Add promo code</p>
-                <input type="text" name="" id="promo-text" class="rounded ">
-                <button id="promo-btn" class="bg-danger px-3 py-1 text-white rounded border-0">Apply</button>
+                <p class="mt-4 ">Add promo code:</p>
+                <input type="text" name="" id="promo-text" class="rounded " placeholder="20% for stevekaku ">
+                <button id="promo-btn" class="bg-danger px-3 py-1 text-white rounded border-0"  >Apply</button>
 
 
             </div>
@@ -98,7 +101,7 @@
         <h1>Total: $<span id="grand-total">1299</span></h1>
 
     </section>
-
+    <script src="js/app.js"></script>
 </body>
 
 </html>
